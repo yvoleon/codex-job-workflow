@@ -1,0 +1,3 @@
+interface:
+  display_name: "老油条求职判断"
+  short_description: "建立求职画像、识别招聘风险并排序岗位"
