@@ -1,0 +1,7 @@
+interface:
+  display_name: "校园岗位信息收集"
+  short_description: "核验校招岗位、去重投递记录并生成中文晨报与面试重点"
+  default_prompt: "使用 $campus-job-research，检索并核验本候选人尚未投递的2027届校招和高质量实习岗位，去重后生成中文晨报。"
+
+policy:
+  allow_implicit_invocation: true
