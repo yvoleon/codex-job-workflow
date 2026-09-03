@@ -1,0 +1,13 @@
+# Local archives and preparation outputs
+*.zip
+outputs/
+
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
