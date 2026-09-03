@@ -1,0 +1,76 @@
+name: 使用反馈与建议
+description: 分享 skill 的真实使用体验、问题或改进建议
+title: "[反馈] "
+labels:
+  - feedback
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢你来试用这套校招工作流。
+
+        请尽量描述一次具体使用过程。公开 Issue 里不要粘贴完整简历、联系方式、身份证号、账号信息或公司内部材料。
+
+  - type: dropdown
+    id: skill
+    attributes:
+      label: 使用了哪个 skill
+      options:
+        - campus-job-workflow
+        - campus-job-research
+        - career-old-hand
+        - resume-application-tracker
+        - universal-interview-coach
+        - 多个 skill 一起使用
+    validations:
+      required: true
+
+  - type: dropdown
+    id: feedback_type
+    attributes:
+      label: 反馈类型
+      options:
+        - 使用体验
+        - 问题报告
+        - 功能建议
+        - 文档改进
+    validations:
+      required: true
+
+  - type: textarea
+    id: goal
+    attributes:
+      label: 当时想完成什么
+      description: 请用一两句话说明任务背景，可以使用脱敏后的岗位或场景。
+      placeholder: 例如，我想根据一个机器人岗位的 JD 调整简历重点。
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual_result
+    attributes:
+      label: 实际发生了什么
+      description: 请写清使用步骤、结果和卡住的位置。
+      placeholder: 例如，岗位筛选结果很多，但没有把岗位详情链接和直投入口分开。
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: 你希望它怎么改
+      description: 具体的改法比一句“再智能一点”更容易落地。
+
+  - type: input
+    id: model
+    attributes:
+      label: 模型和推理强度
+      placeholder: 例如，Sol；或 Luna，极高
+
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: 公开内容确认
+      options:
+        - label: 我已对示例内容做脱敏处理，确认没有公开个人敏感信息或公司内部资料。
+          required: true
