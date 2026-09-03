@@ -1,0 +1,7 @@
+interface:
+  display_name: "校招工作流总控"
+  short_description: "拆分四个校招任务并生成协作提示词"
+  default_prompt: "使用 $campus-job-workflow，在当前 Codex 项目中准备并按需创建四个独立的校招对话任务。"
+
+policy:
+  allow_implicit_invocation: true
