@@ -1,0 +1,4 @@
+interface:
+  display_name: "Resume Application Tracker"
+  short_description: "Build, audit, fill, and archive résumés consistently"
+  default_prompt: "Use $resume-application-tracker to build or audit a resume, find a template, fill a form, or archive a delivery record."
