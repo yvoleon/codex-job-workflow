@@ -1,0 +1,3 @@
+interface:
+  display_name: "通用面试教练"
+  short_description: "分析岗位与题库并生成定制化面试准备 DOCX"
